@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johnathon Johnson's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+            margin: 0;
+            padding: 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .hero {
+            background-color: #f4f4f4;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .section {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .contact-info {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        .skill-card {
+            background-color: #f4f4f4;
+            padding: 1rem;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .experience-item {
+            margin-bottom: 2rem;
+        }
+        .experience-item h3 {
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
+        .experience-item .company {
+            color: #666;
+            font-style: italic;
+        }
+        .experience-item .date {
+            color: #888;
+            font-size: 0.9em;
+        }
+        .languages-certs {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <h1>Johnathon Johnson (JJ)</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Restaurant Management Professional | Business Development Expert | Culinary Specialist</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Gibsonton, FL 33534</p>
+            <p>Email: callmejj212121@gmail.com</p>
+            <p>Phone: +1 813 363 6483</p>
+            <p>Willing to relocate: Anywhere</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <h2>About Me</h2>
+        <p>The world is an amazing place if you let it be one. I'm Johnathon Johnson (JJ), an energetic and charismatic professional who loves to get things done while having fun doing it. I value efficiency and future-oriented thinking, understanding business at both macro and micro levels.</p>
+        
+        <p>With over 20 years in the hospitality industry, I've developed a deep understanding of what it takes to build and run successful operations from the ground up. I'm an analytical and critical thinker who enjoys solving complex problems while maintaining a focus on the bigger picture.</p>
+        
+        <h3>Culinary Philosophy</h3>
+        <p>"My entire culinary career has been fascinating to me. Over the years, I have picked up many different art forms in food. Learning multiple cultural flavors and designs is so beneficial to us all. Down to the plate presentation! I enjoy spreading happiness through food. After all, it's one of the things we can't go without. I enjoy teaching anyone they can do anything—showing people new ways to see things. The seasoning you're missing, I have. I'll share some with you so we can make this even better. Don't settle for just cooking... Chef it up!"</p>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+        <h2>Professional Experience</h2>
+        
+        <div class="experience-item">
+            <h3>Restaurant Manager</h3>
+            <p class="company">Cracker Barrel Old Country Store - Riverview, FL</p>
+            <p class="date">January 2023 to Present</p>
+            <p>Managing building infrastructure, staff training and development, scheduling for FOH, BOH, and maintenance. Leveraging 20 years of hospitality experience to enhance operations and team performance.</p>
+        </div>
+
+        <div class="experience-item">
+            <h3>Licensed Health Insurance Agent</h3>
+            <p class="company">USHADVISORS - Riverview, FL</p>
+            <p class="date">October 2022 to January 2023</p>
+            <p>Licensed in 15 states, assisted individuals, families, and self-employed people in finding affordable healthcare coverage.</p>
+        </div>
+
+        <div class="experience-item">
+            <h3>Manager</h3>
+            <p class="company">Longhorn Steakhouse, Darden Restaurants - Riverview, FL</p>
+            <p class="date">April 2016 to 2022</p>
+            <p>Managed staffing, training, operations, finances, and scheduling. Specialized in rapid problem-solving and guest satisfaction.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <h2>Professional Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Management</h3>
+                <p>Restaurant Management, Team Development, Operations Management</p>
+            </div>
+            <div class="skill-card">
+                <h3>Culinary</h3>
+                <p>Chef Experience, Menu Planning, Italian & Mexican Cuisine</p>
+            </div>
+            <div class="skill-card">
+                <h3>Business</h3>
+                <p>Strategic Planning, Process Improvement, Profit & Loss</p>
+            </div>
+            <div class="skill-card">
+                <h3>Technical</h3>
+                <p>Microsoft Office, Computer Skills, Blockchain</p>
+            </div>
+            <div class="skill-card">
+                <h3>Leadership</h3>
+                <p>Team Management, Training & Development, Communication</p>
+            </div>
+            <div class="skill-card">
+                <h3>Operations</h3>
+                <p>Inventory Control, Quality Control, Cost Management</p>
+            </div>
+        </div>
+
+        <div class="languages-certs">
+            <div>
+                <h3>Languages</h3>
+                <ul>
+                    <li>English (Native)</li>
+                    <li>Spanish (Intermediate)</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Certifications</h3>
+                <ul>
+                    <li>Insurance Producer License</li>
+                    <li>ServSafe Certification</li>
+                    <li>Food Handler Certification</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
